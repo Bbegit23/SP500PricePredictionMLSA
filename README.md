@@ -7,13 +7,13 @@ The convergence of these factors renders stock prices highly volatile and notori
 To ensure an extensive array of correlated features with the closing price, I have anchored my methodology in historical stock data, technical indicators, and news headlines.
 The dataset comprises daily data spanning seven years, encompassing a rich set of 28 features. 
 **The project unfolds as follows:**  
-   **1. Data Preparation:**  
-      * Data Collection and Sentiment Analysis:  
-      * Utilizing web scraping techniques, I gathered news headlines.  
-      * Employing sentiment analysis, I calculated an average sentiment score from the news headlines.  
-      * Then I collect financial data with yfinance   
-      * Data Integration:  
-         * I combined the collected financial data and the computed sentiment scores into One Dataframe.  
+**1. Data Preparation:**  
+* Data Collection and Sentiment Analysis:  
+* Utilizing web scraping techniques, I gathered news headlines.  
+* Employing sentiment analysis, I calculated an average sentiment score from the news headlines.  
+* Then I collect financial data with yfinance   
+* Data Integration:  
+  * I combined the collected financial data and the computed sentiment scores into One Dataframe.  
    **2. Feature Engineering:**    
       * Technical Indicators:    
         I augmented the feature set by incorporating various technical indicators based on historical stock data.  
