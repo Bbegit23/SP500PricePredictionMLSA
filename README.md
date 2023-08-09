@@ -14,15 +14,15 @@ The dataset comprises daily data spanning seven years, encompassing a rich set o
      * Then I collect financial data with yfinance   
    * Data Integration:  
      * I combined the collected financial data and the computed sentiment scores into One Dataframe.  
-   **2. Feature Engineering:**    
+2. **Feature Engineering:**    
       * Technical Indicators:    
         I augmented the feature set by incorporating various technical indicators based on historical stock data.  
-   **3. Data Analysis, Exploratory Data Analysis (EDA), and Correlations:**    
+3. **Data Analysis, Exploratory Data Analysis (EDA), and Correlations:**    
       * Rigorous data analysis and visualizations were conducted to unearth insights and patterns.  
       * Relationships between variables were scrutinized to identify meaningful correlations.  
-   **4. Data Normalization and Handling Skewed Features:**  
+4. **Data Normalization and Handling Skewed Features:**  
       * Ensuring fair treatment, I normalized the data and addressed skewed features.  
-   **5. Machine Learning Regression Models and Evaluation:**  
+5. **Machine Learning Regression Models and Evaluation:**  
       * Employing advanced regression models, I predicted the Close price.  
       * The models were evaluated using appropriate metrics to assess their performance.  
       
