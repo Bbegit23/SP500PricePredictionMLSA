@@ -8,11 +8,11 @@ To ensure an extensive array of correlated features with the closing price, I ha
 The dataset comprises daily data spanning seven years, encompassing a rich set of 28 features. 
 **The project unfolds as follows:**  
    **1. Data Preparation:**
-   * Data Collection and Sentiment Analysis:  
+      * Data Collection and Sentiment Analysis:  
          * Utilizing web scraping techniques, I gathered news headlines.  
          * Employing sentiment analysis, I calculated an average sentiment score from the news headlines.  
          * Then I collect financial data with yfinance   
-   * Data Integration:  
+      * Data Integration:  
          * I combined the collected financial data and the computed sentiment scores into One Dataframe.  
    **2. Feature Engineering:**  
       * Technical Indicators:  
